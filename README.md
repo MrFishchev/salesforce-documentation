@@ -1,21 +1,21 @@
 <!--ts-->
-- [Terminology](#terminology)
-- [Salesforce's Services](#salesforces-services)
+- [📖 Terminology](#-terminology)
+- [🗄 Salesforce's Services](#-salesforces-services)
   - [🧩 Sales Cloud (SaaS)](#-sales-cloud-saas)
-      - [Built-in Objects](#built-in-objects)
-      - [Built-in Logic](#built-in-logic)
+      - [⚙️ Built-in Objects](#️-built-in-objects)
+      - [⚙️ Built-in Logic](#️-built-in-logic)
   - [🧩 Service Cloud (SaaS)](#-service-cloud-saas)
-      - [Built-in Objects](#built-in-objects-1)
-      - [Built-in Logic](#built-in-logic-1)
+      - [⚙️ Built-in Objects](#️-built-in-objects-1)
+      - [⚙️ Built-in Logic](#️-built-in-logic-1)
   - [🧩 Experience Cloud (PaaS)](#-experience-cloud-paas)
   - [🧩 Marketing Cloud (SaaS)](#-marketing-cloud-saas)
   - [🧩 Pardot (SaaS)](#-pardot-saas)
   - [🧩 Configuration Price Quotes (SaaS)](#-configuration-price-quotes-saas)
-- [Additional Services](#additional-services)
+- [🗃 Additional Services](#-additional-services)
 - [⛳️ What is next?](#️-what-is-next)
 <!--te-->
 
-# Terminology
+# 📖 Terminology
 
 **Salesforce Org** - an instance of the salesforce for a client. Can be either _Production_, Sandbox, Developer, Scratch.
 
@@ -39,7 +39,7 @@
 
 **PaaS** - Platform as a Service model allows to deploy and scale services quickly, without deep configurations. PaaS company takes a responsibility for deploy process.
 
-# Salesforce's Services
+# 🗄 Salesforce's Services
 
 Salesforce provides a lot of different solutions for different industries, some of them are standalone cloud projects, others you can install into Salesforce Org.
 
@@ -47,7 +47,7 @@ Salesforce provides a lot of different solutions for different industries, some 
 
  The **Core** of the CRM. It has [built-in objects](#built-in-objects-sales) for work with a client and [business logic](#built-in-logic-sales) that allows making a pipeline and has reach tools for reporting.
 
-#### Built-in Objects
+#### ⚙️ Built-in Objects
 
  - Lead
  - Contract
@@ -57,7 +57,7 @@ Salesforce provides a lot of different solutions for different industries, some 
  - Quote
  - etc.
 
-#### Built-in Logic
+#### ⚙️ Built-in Logic
 
  - Lead Conversion
  - Lead Assignment
@@ -70,7 +70,7 @@ Salesforce provides a lot of different solutions for different industries, some 
 
  Allows process requests of clients. It has set of [built-in objects](#built-in-objects-service) and [business-logic](#built-in-logic-service).
 
-#### Built-in Objects
+#### ⚙️ Built-in Objects
 
  - Lead
  - Contract
@@ -80,7 +80,7 @@ Salesforce provides a lot of different solutions for different industries, some 
  - Quote
  - etc.
 
-#### Built-in Logic
+#### ⚙️ Built-in Logic
 
  - Lead Conversion
  - Lead Assignment
@@ -111,7 +111,7 @@ Reach tool for marketing (sales and pricing), allows setup subscriptions. Its fu
 
 There are a huge amount of different solutions for different fields, such as **Government Cloud** for government orgs, **Healthcare Cloud** unites patients and providers of medical services. **Vaccine Cloud** is built on Experience Cloud and integrated with Government Cloud, helps find clinics for vaccines and make the process easy for the government's services.
 
-# Additional Services
+# 🗃 Additional Services
 
 🏷️ **Force.com sites** (PaaS) - makes development and deployment of cloud applications easily.\
 🏷️ **Chatter** - corporate messenger, allows creating of chat-bots.\

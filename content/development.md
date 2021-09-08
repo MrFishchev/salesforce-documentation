@@ -1,9 +1,9 @@
 <!--ts-->
-- [Global Variables](#global-variables)
-- [Localization](#localization)
-- [Database Model](#database-model)
-  - [Сustom types](#сustom-types)
-  - [Relations between objects](#relations-between-objects)
+- [📡 Global Variables](#-global-variables)
+- [📃 Localization](#-localization)
+- [🧬 Database Model](#-database-model)
+  - [📦 Сustom types](#-сustom-types)
+  - [⛓ Relations between objects](#-relations-between-objects)
     - [🔌 Master-Detail](#-master-detail)
     - [🔌 Look Up](#-look-up)
     - [🔌 Many-to-Many](#-many-to-many)
@@ -16,19 +16,19 @@ Salesforce development is very similar to Web Development, you have the same tec
 
 Salesforce is **completely cloud solution**, so you won't compile it on a local machine, but you can do it if necessary.
 
-# Global Variables
+# 📡 Global Variables
 
 To store the global variables salesforce uses **Custom Settings** tool or **Custom Metadata Types** that is widely used in package development.
 
 The benefit of **Custom Settings** is the possibility to create unique hierarchical records (ex. user-specific profiles). On other hand, you can create relations between **Custom Metadata Types**. There are more differences between them.
 
-# Localization
+# 📃 Localization
 
 There is a tool as **Translation Workbench** for language versioning. During the development of custom components, you are recommended to use **Custom Labels** which support multi-language.
 
 In Additional, there is a support of currency depending on the exchange rate for a specific date.
 
-# Database Model
+# 🧬 Database Model
 
 The system contains a lot of [built-in objects](https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_list.htm), you can create your own, but the amount of available custom classes is limited. **Ultimate Edition** allows create up to **2000** objects and **1000** to install as packages.
 
@@ -40,7 +40,7 @@ There is a built-in privacy policy with [GDPR](https://en.wikipedia.org/wiki/Gen
 
 > If you have collected billions of records, you can use a special tool - **Salesforce Big Objects**.
 
-## Сustom types
+## 📦 Сustom types
 
 Salesforce uses fields as a kind of tables column. There are several types of data for custom objects:
 - **Auto Number** - increments record automatically, allows to create of a template.
@@ -82,7 +82,7 @@ Salesforce uses fields as a kind of tables column. There are several types of da
 
 Additional information for the custom fields can be found [here](https://help.salesforce.com/s/articleView?id=sf.custom_field_types.htm&type=5).
 
-## Relations between objects
+## ⛓ Relations between objects
 
 Many-to-many relation is created by **Junction Objects** which have two ***Master-Detail Relationship*** fields. Two fields are a maximum for this type of single object.
 
