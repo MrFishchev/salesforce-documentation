@@ -121,4 +121,5 @@ There are a huge amount of different solutions for different fields, such as **G
 
 # ⛳️ What is next?
 - [Development Notes](content/development.md) - relations and types, hight-level overview.
+- [Tools](content/tools.md) - helpful tools and packages for development
 - [Apex Notes](content/apex.md) - basic introduction to Apex language.
